@@ -6,25 +6,25 @@
 }
 
 .card{
-    width: 90%;
+    width: 80%;
     box-shadow: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.card_left > span{
+.card__left > span{
     font-weight: 400;
 }
 
-.card_left{
+.card__left{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
 }
 
-.card_left > a{
+.card__left > a{
     margin-top: 15px;
     font-size: 25px;
     color: black;
@@ -32,6 +32,6 @@
     font-weight: bold;
 }
 
-.card_left > p{
+.card__left > p{
     color: gray;
 }
