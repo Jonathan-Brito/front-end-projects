@@ -1,5 +1,5 @@
 class CardNews extends HTMLElement {
-    construtor(){
+    constructor(){
         super();
 
         const shadow = this.attachShadow({mode: "open" });
