@@ -7,23 +7,33 @@
     <title>PORTAL DE NOTÍCIAS GALACTICAR</title>
     <link rel="stylesheet" href="styles/card.css">
     <script src="src/Components/CardNews.js" defer></script>
-    <script src="src/Components/TituloDinamico.js"></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By Jonathan Brito</span>
-                <a href="#">Darth Vader Contrata Devs</a>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
-            </div>
-            <div class="card__right">
-                <img src="assets/Coffee-Vader-Cafe-do-lado-negro-da-forca.jpg" alt="Darth Vader tomando café">
-            </div>
-        </div>
-    </div>
-    <card-news></card-news>
-    <card-news></card-news>
-    <titulo-dinamico></titulo-dinamico>
+
+        <card-news 
+            autor="Jonathan Brito"
+            title="Darth Vader Contrata"
+            link-url="www.google.com.br"
+            content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes. "
+        >
+        </card-news>
+
+        <card-news 
+            autor="Jonathan Brito"
+            title="Darth Vader Contrata"
+            link-url="www.google.com.br"
+            content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes. "
+        >
+        </card-news>
+
+        <card-news 
+            autor="Jonathan Brito"
+            title="Darth Vader Contrata"
+            link-url="www.google.com.br"
+            content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes. "
+        >
+        </card-news>    
 </body>
 </html>
