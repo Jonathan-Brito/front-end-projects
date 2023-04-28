@@ -19,3 +19,8 @@ const bot1: robot2 = {
     id: 1,
     name: "mensagem",
 };
+
+console.log(bot);
+console.log(bot1);
+
+
