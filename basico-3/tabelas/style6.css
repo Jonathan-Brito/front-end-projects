@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    text-align: left;
+    background-color: gray;
+    border-collapse: collapse;
+}
+
+thead{
+    border-bottom: solid 2px black;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+tbody tr{
+    border-bottom: solid 1px gray;
+}
+
+tbody th{
+    padding: 20px;
+}
+
+tbody tr{
+    padding: 10px;
+}
+
+tbody tr:hover{
+    background-color: #c5c5c5;
+}
+
+td{
+    padding: 10px 10px 10px 0;
+}

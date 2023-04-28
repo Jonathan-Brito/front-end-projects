@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 2</title>
+</head>
+<body>
+    <form action="./login.html" method="get" target="_blank">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" value="First Name">
+        <button type="submit">Enviar</button>
+    </form>
+    <form action="">
+        <label for="comentario">Deixe o seu comentário</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+    </form>
+
+    <label for="arquivo">Selecione um arquivo</label>
+    <input type="file" id="arquivo" multiple>
+
+    <form action="">
+        <label for="amarela">Amarelo</label>
+        <input type="checkbox" id="amarela" checked>
+        <br>
+        <label for="roxo">Roxo</label>
+        <input type="checkbox" id="roxo" checked>
+        <br>
+        <label for="azul">Azul</label>
+        <input type="checkbox" id="azul" disabled>
+    </form>
+
+    <form action="">
+        <label for="amarelo">Amarelo</label>
+        <input type="radio" name="cores" id="amarela" >
+        <br>
+        <label for="roxo">Roxo</label>
+        <input type="radio" name="cores" id="roxo" >
+        <br>
+        <label for="azul">Azul</label>
+        <input type="radio" name="cores" id="azul" >
+        <br>
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="20" step="5" value="0" >
+    </form>
+    
+</body>
+</html>
