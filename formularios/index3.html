@@ -23,7 +23,9 @@
     </form>
     <form action="">
         <label for="nome">Nome</label>
-        <input type="text" placeholder="Digite o seu nome" id="nome" minlength="2" maxlength="50" size="40">
+        <input type="text" 
+        placeholder="Digite o seu nome" id="nome" 
+        minlength="2" maxlength="50" size="40" required required pattern="[a-zA-Z0-9]{2,5}" title="Digite o seu nome com letras apenas">
         <br>
     </form>
 </body>
